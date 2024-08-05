@@ -1,0 +1,41 @@
+nav{
+    padding: 10px 2%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px black;
+    background-color: aliceblue;
+    position: sticky;
+    top:0;
+    z-index: 10;
+}
+.nav-left .fa-bars{
+    width: 22px;
+    margin-right: 25px;
+}
+.nav-left .fa-youtube{
+    width: 130px;
+    color: red;
+}
+.nav-middle .search-box{
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 25px;
+    border-radius: 25px;
+}
+.nav-middle .search-box input{
+    width: 350px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+}
+.nav-middle .search-box i{
+    width: 15px;
+}
+.nav-right{
+    width: 25px;
+    margin-right: 50px;
+}
+.nav-right i{
+    width: 20px;
+    border-radius: 50%;
+    margin: 5px;
+}
